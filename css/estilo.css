@@ -26,7 +26,7 @@ body {
 #exercicio > div:nth-child(5) {background-color: #367e18;}
 
 
-#exercicio > div.destaque {
+#exercicio .destaque {
     color: #f6cc42;
     border: 8px solid #f6cc42;
     font-weight: 900;
