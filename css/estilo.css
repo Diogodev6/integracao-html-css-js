@@ -31,3 +31,33 @@ body {
     border: 8px solid #f6cc42;
     font-weight: 900;
 }
+
+#exercicio .coluna {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, select {
+    font-size: 1.7rem;
+    background-color: #444;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    border: none
+}
+
+input:focus, select:focus {
+    background-color: #555;
+}
+
+button {
+    font-size: 1.4rem;
+    color: white;
+    background-color: #149f0f;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+}
